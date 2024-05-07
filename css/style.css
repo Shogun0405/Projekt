@@ -1,0 +1,82 @@
+* {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  background-color: blanchedalmond;
+  background-image: url(/Image/1.png);
+  background-position: right;
+  background-size: 800px;
+}
+.nav .text-success {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 3px orange;
+}
+.nav .fa-brands {
+  width: 50px;
+  margin: 3px;
+  color: orange;
+  text-shadow: none;
+  text-decoration: none;
+}
+.nav .btn {
+  position: absolute;
+  width: 150px;
+  left: 960px;
+  top: 8px;
+  color: goldenrod;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: 10px;
+}
+
+.crypto-list {
+  background-image: url(/Image/crypto-background-nr7w6stwxkmh17zc.jpg);
+}
+
+.crypto-item {
+  padding: 20px;
+  border: 5px solid black;
+  text-align: center;
+  font-weight: 700;
+}
+.crypto-item p {
+  margin: 5px 0;
+}
+
+.positive {
+  color: green;
+}
+
+.negative {
+  color: red;
+}
+
+@media (min-width: 768px) {
+  .crypto-item {
+    font-size: 20px;
+    border: solid 2px rgb(13, 87, 13);
+  }
+}
+@media (max-width: 580px) {
+  .nav {
+    background-size: cover;
+  }
+}
+@media (max-width: 760px) {
+  .nav .btn {
+    display: none;
+  }
+}
+@media (max-width: 1200px) {
+  .nav .btn {
+    left: 600px;
+  }
+}/*# sourceMappingURL=style.css.map */
